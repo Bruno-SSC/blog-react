@@ -7,3 +7,6 @@ commit 1
     Eu "terminei" o projeto. Na verdade eu fiz besteira, eu devia ter centralizado a lista como um estado desde o início. 
     As alterações começaram a causa bugs de funcionamento umas nas outras, então decidi parar de mexer. Deu pra dar uma boa praticada react. 
 
+commit 2
+
+    Tinha colocado o link errado no readme para acessar o app kkkk. Também adicionei o codelândia nas referências
