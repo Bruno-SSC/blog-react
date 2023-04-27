@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.searchBar {
+  position: relative;
+  display: flex;
+  width: 90%;
+  height: 50%;
+}
+@media screen and (min-width: 1024px) {
+  .searchBar {
+    width: 900px;
+  }
+}
+.searchBar .input {
+  align-self: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  padding-left: 38px;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .searchBar .input {
+    font-size: 16px;
+    height: 48px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .searchBar .input {
+    font-size: 18px;
+    height: 65px;
+    padding-left: 64px;
+  }
+}
+.searchBar .input::placeholder {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.searchBar .loupeImgWrapper {
+  position: absolute;
+  align-self: center;
+  margin-left: 9px;
+}
+@media screen and (min-width: 1024px) {
+  .searchBar .loupeImgWrapper {
+    margin-left: 17px;
+  }
+}
+.searchBar .loupeImgWrapper .loupeIcon {
+  width: 16px;
+}
+@media screen and (min-width: 768px) {
+  .searchBar .loupeImgWrapper .loupeIcon {
+    width: 24px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .searchBar .loupeImgWrapper .loupeIcon {
+    width: 32px;
+  }
+}
+
+/*# sourceMappingURL=SearchBar.module.css.map */
